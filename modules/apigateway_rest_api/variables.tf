@@ -1,3 +1,7 @@
+variable "resource_policy" {}
+variable "binary_media_types" {
+  default = null
+}
 variable "environment" {
   description = "Resource environment"
 }
